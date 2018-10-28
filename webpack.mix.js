@@ -14,4 +14,3 @@ mix
     .postCss('resources/css/chatter.css', 'public/css')
     .purgeCss()
     .version()
-    .copy('public', '/Users/milosdakic/Code/amglounge/public/chatter')
