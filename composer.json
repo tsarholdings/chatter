@@ -1,0 +1,49 @@
+{
+    "name": "tsarholdings/chatter",
+    "type": "library",
+    "description": "Discussion forum",
+    "keywords": ["forum", "community", "laravel", "chatter"],
+    "version": "0.1",
+    "license": "MIT",
+    "authors": [{
+        "name": "Milos Dakic",
+        "email": "milos@tsarholdings.com.au"
+    }],
+    "support": {
+        "email": "code@tsarholdings.com.au",
+        "issues": "https://github.com/tsarholdings/chatter/issues",
+        "source": "https://github.com/tsarholdings/chatter"
+    },
+    "require": {
+        "php": ">=7.2",
+        "illuminate/database": "^5.5",
+        "illuminate/support": "^5.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TsarHoldings\\Chatter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TsarHoldings\\Tests\\Chatter\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TsarHoldings\\Chatter\\ChatterServiceProvider"
+            ]
+        }
+    }
+}

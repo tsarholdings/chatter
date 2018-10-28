@@ -1,0 +1,5 @@
+<?php
+
+/**
+ * Chatter API routes
+ */
