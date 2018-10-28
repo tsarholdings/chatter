@@ -1,0 +1,8 @@
+@tailwind preflight;
+
+html, body {
+    font-size: 13px;
+}
+
+@tailwind components;
+@tailwind utilities;
